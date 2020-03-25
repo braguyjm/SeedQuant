@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 ###Test 
-<a href="produits.html">Consulter les produits</a>
+<a href="About.html">Consulter les produits</a>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
