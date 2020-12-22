@@ -19,21 +19,24 @@
 
 				<!-- Header -->
 					<header id="header">
+						<!--Decide of the gem in the circle! Can try to modify it later
 						<div class="logo">
 							<span class="icon fa-gem"></span>
-						</div>
+						</div>-->
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<h1>SeedQuant</h1>
+								<p>an automatic computer vision tool
+								to detect and count parasitic seeds</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
 								<li><a href="#about">About</a></li>
+								<li><a href="#download">Download</a></li>
+								<li><a href="#info">How</a></li>
+								<li><a href="#why">Why</a></li>
+								<li><a href="#rawdata">Raw Data</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -43,29 +46,63 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							</article>
-
-						<!-- About -->
+						<!-- about -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<p><b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> is a <b>seed detection model</b> into an open source software with a user-friendly interface that allows the almost-instantaneous processing and characterization of a single/group of image(s). <br \>
+								<p>With <b>one click</b>, <b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> automatically <b>detects</b> and <b>counts</b> <b>germinated and non-germinated parasitic seeds</b> on images with <b>95% accuracy</b>.  <br \>
+								<span class="image main"><img src="images/strigoquant.png" alt="" /></span>
+								<p>It simultaneously processes images and extrapolates the germination rate in a <b>generic CSV format</b>, gathering image name and germination rate for further statistics. <br \>
+								<p><b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> can be used on <b>Windows, MacOS, and Linux</b> operating systems. <br \>
+								<br \>
+								<p><b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> was developed by Merey Ramazanova and Dr Silvio Giancola for and with the help of Justine Braguy, Dr Muhammad Jamil and Dr Boubacar Kountche. <br \>
+								<p>It would have not been possible without the precious help of Randa Zarban, Abrar Felemban, Jian You Wang, Pei-Yu Lin, Dr Imran Haider who helped at the construction of the annotation database and the support of <b><a href="https://www.kaust.edu.sa/en/study/faculty/salim-albabili">Prof Salim Al-Babili<\a><\b>, <b><a href="https://www.kaust.edu.sa/en/study/faculty/bernard-ghanem">Prof Bernard Ghanem<\a><\b> and <b><a href="https://www.kaust.edu.sa/en">King Abdullah University of Science and Technology (KAUST)<\a></b>. </p>
+</article>
+						
+						<!-- Why -->
+							<article id="why">
+								<h2 class="major">Why</h2>
+								<p><b>Witchweeds</b> and <b>broomrapes</b> are root parasitic weeds that represent one of the <b>main threats to global food security</b>. By drastically reducing host crops’ yield, these weeds are responsible for <b>enormous economic losses</b> estimated in billions of dollars annually. </p>
+								<span class="image main"><img src="images/imagetest1.jpg" alt="" /></span>
+								<p>Parasitic plants rely on chemical cues in the rhizosphere, indicating the presence of a host plant in proximity. Using this host dependency, research about parasitic plants focuses on understanding the necessary signals for parasitic seeds germination.</p>
+								<p>Current studies use <b>germination-based bioassays</b>, where pre-conditioned parasitic seeds are placed in the presence of a chemical or plant root exudates, from which the germination ratio is assessed. Although these protocols are sensitive at the chemical level, the germination recording process is <b>laborious</b> and represents <b>a challenge for researchers</b>. 
+								<span class="image main"><img src="images/discimage.png" alt="" /></span> <!-- upload the picture in the image repository-->
+								<p>We propose an <b>automatic seed census tool</b> using <b>computer vision</b> latest development with a <b>deep learning</b> approach for object detection using the algorithm Faster R-CNN to count and discriminate germinated from non-germinated seeds. Our method has shown an <b>accuracy of 95%</b> in counting seeds on completely new images, and reduces the counting time by a significant margin, from 5 min to a fraction of second per image. 
+								<p>We believe that <b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> will be of great help for lab bioassays to perform large scale chemicals screening for parasitic seeds applications.</p>
+							
+
+						<!-- Info -->
+							<article id="info">
+								<h2 class="major">Documentation</h2>
+								<p>To facilitate the use of <b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b>, we created an extensive manual to guide each user step-by-step from the installation of <b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> to its use.</p> <br />
+								<p style="color:MediumSeaGreen;"> How to open <a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a>? <br\>
+								style="color:MediumSeaGreen;"> How to upload my pictures? <br\>
+								style="color:MediumSeaGreen;"> How to automatically detect the seeds on my image(s)? <br\>
+								... and many more questions are carefully answered, supported by screenshots and clear explanations.</p>
+								<button> The user Manual </button> <!-- link the manual to the button-->
 							</article>
 
+						<!-- Download -->
+							<article id="download">
+								<h2 class="major"><li><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></li></h2>
+								<span class="image main"><img src="images/sddownload.png" alt=""   style="width: 100%;max-height: 100%" /></span> <!-- upload the image on the image folder-->
+								<p>We have packaged <b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> algorithm into an <b>user-friendly interface</b> that can be downloaded <b><a href="https://pypi.org/project/SeedsLabeler/">here</a></b>. </p>
+								<p> <b><a href="https://pypi.org/project/SeedsLabeler/">SeedQuant</a></b> requires the installation of <b>Python</b> (version>=3.0.0) with the pip install SeedsLabeler.</p> <br\>
+								<p>Click <b><a href="https://pypi.org/project/SeedsLabeler/">here</a></b> for a step-by-step installation guide. <!-- update the link-->
+							</article>
+						
+						<!-- Raw Data -->
+							<article id="rawdata">
+								<h2 class="major">Raw Data</h2>
+								<span class="image main"><img src="images/discimage.png" alt="" /></span>
+								<p>We developed a set of annotation files for the pictures of discs containing the seeds of various parasitic plants:
+									<li><i>Striga hermontica</i></li>
+									<li><i>Phelipanche aegyptiaca</li>
+									<li><i>Phelipanche ramosa</i> and <i>Orobanche cumana</i></p> <br \>
+								<button><a href="https://drive.google.com/drive/folders/1ajmmQTHt5FyxZKm7zorIqnhLcejnP8Br?usp=sharing">Download the Raw Data</a></button>
+								<button><a href="https://pypi.org/project/SeedsLabeler/">Access the code</a></button>
+							</article>
+						
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
